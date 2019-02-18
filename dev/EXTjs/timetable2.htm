@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TIme Table</title>
+<script type="text/javascript" src="extjs/examples/shared/include-ext.js"></script>
+<script type="text/javascript" src="extjs/examples/shared/options-toolbar.js"></script>
+<script type="text/javascript">
+Ext.require(['*']);
+
+Ext.onReady(function() {
+
+    var panel = Ext.create('Ext.Panel', {
+        id:'main-panel',
+        baseCls:'x-plain',
+        renderTo: Ext.getBody(),
+        layout: {
+            type: 'table',
+            columns: 12
+        },
+        // applied to child components
+        defaults: {frame:true, height:30},
+        items:[{
+            html:'TIME',
+        },{
+            html:'7:00 - 7:30',
+        },{
+            html:'7:30 - 8:10',
+        },{
+            html:'8:10 - 8:50',
+        },{
+            html:'8:50 - 9:30',
+        },{
+            html:'9:30 - 10:10',
+        },{
+            html:'10:10 - 10:50',
+        },{
+            html:'10:50 - 11:30',
+        },{
+            html:'11:30 - 12:10',
+        },{
+            html:'12:10 - 12:30',
+        },{
+            html:'12:30 - 13:10',
+        },{
+            html:'13:10 - 13:40',
+        },{
+            html:'MONDAY',
+        },{
+            html:'ASSEMBLY PERIOD',
+            rowspan: 5,
+        },{
+            html:'Mathematics',
+        },{
+            html:'English',
+        },{
+            html:'English',
+        },{
+            html:'FIRST BREAK PERIOD',
+            rowspan: 5,
+        },{
+            html:'Biology',
+        },{
+            html:'Physics',
+        },{
+            html:'Chemistry',
+        },{
+            html:'SECOND BREAK PERIOD',
+            rowspan: 5,
+        },{
+            html:'Geography',
+        },{
+            html:'Info Tech',
+        },{
+            html:'TUESDAY',
+        },{
+            html:'Physics',
+        },{
+            html:'Chemistry',
+        },{
+            html:'English',
+        },{
+            html:'Geography',
+        },{
+            html:'Mathematics',
+        },{
+            html:'Religious Studies',
+        },{
+            html:'Info Tech',
+        },{
+            html:'Economics',
+        },{
+            html:'WEDNESDAY',
+        },{
+            html:'English',
+        },{
+            html:'English',
+        },{
+            html:'Info Tech',
+        },{
+            html:'Economics',
+        },{
+            html:'Biology',
+        },{
+            html:'Language',
+        },{
+            html:'Religious Studies',
+        },{
+            html:'Physics',
+        },{
+            html:'THURSDAY',
+        },{
+            html:'Mathematics',
+        },{
+            html:'Mathematics',
+        },{
+            html:'Physics',
+        },{
+            html:'Biology',
+        },{
+            html:'Biology',
+        },{
+            html:'Info Tech',
+        },{
+            html:'Economics',
+        },{
+            html:'Economics',
+        },{
+            html:'FRIDAY',
+        },{
+            html:'Biology',
+        },{
+            html:'Language',
+        },{
+            html:'Language',
+        },{
+            html:'Geography',
+        },{
+            html:'Religious Studies',
+        },{
+            html:'Religious Studies',
+        },{
+            html:'CLOSED',
+        },{
+            html:'CLOSED',
+        }]
+    });
+
+});
+</script>
+    <style type="text/css">
+        #main-panel td {
+            padding:5px;
+        }
+        table {
+        	text-align: center;
+        }
+    </style>
+</head>
+<body>
+	
+</body>
+</html>

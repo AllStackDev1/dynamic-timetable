@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TIme Table</title>
+<script type="text/javascript" src="extjs/examples/shared/include-ext.js"></script>
+<script type="text/javascript" src="extjs/examples/shared/options-toolbar.js"></script>
+<script type="text/javascript">
+Ext.require(['*']);
+
+Ext.onReady(function() {
+
+    var panel = Ext.create('Ext.Panel', {
+        id:'main-panel',
+        baseCls:'x-plain',
+        renderTo: Ext.getBody(),
+        layout: {
+            type: 'table',
+            columns: 6
+        },
+        // applied to child components
+        defaults: {frame:true, width:100},
+        items:[{
+            html:'TIME',
+        },{
+            html:'MONDAY',
+        },{
+            html:'TUESDAY',
+        },{
+            html:'WEDNESDAY',
+        },{
+            html:'THURSDAY',
+        },{
+            html:'FRIDAY',
+        },{
+            html:'7:00 - 7:30',
+        },{
+            html:'ASSEMBLY PERIOD',
+            colspan: 5,
+            width:'auto'
+        },{
+            html:'7:30 - 8:10',
+        },{
+            html:'Mathematics',
+        },{
+            html:'English',
+        },{
+            html:'Biology',
+        },{
+            html:'English',
+        },{
+            html:'Physics',
+        },{
+            html:'8:10 - 8:50',
+        },{
+            html:'Mathematics',
+        },{
+            html:'English',
+        },{
+            html:'English',
+        },{
+            html:'Chemistry',
+        },{
+            html:'Mathematics',
+        },{
+            html:'8:50 - 9:30',
+        },{
+            html:'Physics',
+        },{
+            html:'Chemistry',
+        },{
+            html:'English',
+        },{
+            html:'Geography',
+        },{
+            html:'English',
+        },{
+            html:'9:30 - 10:10',
+        },{
+            html:'FIRST BREAK PERIOD',
+            colspan: 5,
+            width:'auto'
+        },{
+            html:'10:10 - 10:50',
+        },{
+            html:'Religious Studies',
+        },{
+            html:'Info Tech',
+        },{
+            html:'Physics',
+        },{
+            html:'Info Tech',
+        },{
+            html:'Economics',
+        },{
+            html:'10:50 - 11:30',
+        },{
+            html:'Info Tech',
+        },{
+            html:'Biology',
+        },{
+            html:'Religious Studies',
+        },{
+            html:'Physics',
+        },{
+            html:'Geography',
+        },{
+            html:'11:30 - 12:10',
+        },{
+            html:'Info Tech',
+        },{
+            html:'Biology',
+        },{
+            html:'Mathematics',
+        },{
+            html:'Language',
+        },{
+            html:'Language',
+        },{
+            html:'12:10 - 12:30',
+        },{
+            html:'SECOND BREAK PERIOD',
+            colspan: 5,
+            width:'auto'
+        },{
+            html:'12:30 - 13:10',
+        },{
+            html:'Language',
+        },{
+            html:'Geography',
+        },{
+            html:'Mathematics',
+        },{
+            html:'Mathematics',
+        },{
+            html:'CLOSED',
+        },{
+            html:'13:10 - 13:40',
+        },{
+            html:'Economics',
+        },{
+            html:'Geography',
+        },{
+            html:'Economics',
+        },{
+            html:'Mathematics',
+        },{
+            html:'CLOSED',
+        }]
+    });
+
+});
+</script>
+    <style type="text/css">
+        #main-panel td {
+            padding:5px;
+        }
+        table {
+        	text-align: center;
+        }
+    </style>
+</head>
+<body>
+	
+</body>
+</html>
